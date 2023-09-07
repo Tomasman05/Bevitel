@@ -10,5 +10,6 @@ public class Inputs {
         System.out.print("Név: ");
         String name = sc.nextLine();
         System.out.println("Szia "+name+ "\nA számaid: "+num1+", "+num2);
+        sc.close();
     }
 }

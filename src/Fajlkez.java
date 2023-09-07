@@ -9,5 +9,6 @@ public class Fajlkez {
         while(sc.hasNextLine()){
             System.out.println("|"+ sc.nextLine()+"|");
         }
+        sc.close();
     }
 }

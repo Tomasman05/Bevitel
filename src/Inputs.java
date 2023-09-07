@@ -9,6 +9,6 @@ public class Inputs {
         int num2 = Integer.parseInt(sc.nextLine());
         System.out.print("Név: ");
         String name = sc.nextLine();
-        System.out.println("Szia "+name);
+        System.out.println("Szia "+name+ "\nA számaid: "+num1+", "+num2);
     }
 }
